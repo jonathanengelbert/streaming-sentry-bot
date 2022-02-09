@@ -1,11 +1,11 @@
-import MovieSearch from "./components/pages/MovieSearch";
+import TitleSearch from "./components/pages/titleSearch/TitleSearch";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>Streaming Sentry Bot 🤖</h1>
-        <MovieSearch />
+        <TitleSearch />
       </header>
     </div>
   );
